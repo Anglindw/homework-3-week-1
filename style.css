@@ -1,5 +1,7 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
 }
 .custom-bar{
     display: flex;
@@ -22,7 +24,20 @@
     
 }  
 
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5%;
+    border: 1px solid black;
+    font-size: 1.4em;
+    
+}
 
+.date p{
+    display: flex;
+    align-items: center;
+}
 
 .custom-body{
     background-color: blanchedalmond;
